@@ -1,0 +1,21 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "this is to learn react with redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "watch": "webpack  --progress --colors --watch --config ./webpack.config.js",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "author": "wrufesh",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^2.1.0",
+    "webpack": "^2.6.0"
+  }
+}
